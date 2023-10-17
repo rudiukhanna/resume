@@ -11,7 +11,7 @@ function WorkExperience({data}) {
                       description={item.description}
                       name={item.name}
                       link={item.link}
-                      />
+                />
             ))}
         </div>
     </div>

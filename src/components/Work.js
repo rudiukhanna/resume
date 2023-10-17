@@ -4,7 +4,7 @@ function Work({title, description, name, link}) {
         <p>Title: {title}</p>
         <p>Description: {description}</p>
         <p>Name: {name}</p>
-        <p>Web-site:</p> <a href="!#">{link}</a>
+         <a href={link}>{name}</a>
      </div>
     </>
 }
