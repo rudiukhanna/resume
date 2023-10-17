@@ -1,5 +1,6 @@
 import Image from "./components/Image";
-import Counter from "./components/Counter";
+import Work from "./components/Work";
+
 const photo = './photo.jpg';
 
 
@@ -7,7 +8,7 @@ function App() {
 
   return  <>
   <Image image={photo}></Image>
-  <Counter/>
+  <Work />
        </>
 };
 
