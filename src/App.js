@@ -1,5 +1,5 @@
 import Image from "./components/Image";
-import Work from "./components/Work";
+import WorkExperience from "./components/WorkExperience";
 
 const photo = './photo.jpg';
 
@@ -8,7 +8,7 @@ function App() {
 
   return  <>
   <Image image={photo}></Image>
-  <Work />
+  <WorkExperience />
        </>
 };
 
