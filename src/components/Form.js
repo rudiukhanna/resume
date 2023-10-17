@@ -10,8 +10,7 @@ function Form({onAddItem}) {
   function handleSubmit(event) {
     event.preventDefault();
 
-    const newItem = { title, description, name, link };
-    onAddItem(newItem);
+    onAddItem({ title, description, name, link });
     setTitle('');
     setDescription('');
     setName('');

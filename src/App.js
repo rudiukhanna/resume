@@ -2,6 +2,7 @@ import Image from "./components/Image";
 import WorkExperience from "./components/WorkExperience";
 import { useState } from "react";
 import Form from "./components/Form";
+import Repo from "./components/Repo";
 
 const photo = './photo.jpg';
 
@@ -59,9 +60,10 @@ function App() {
   }
 
   return  <>
-            <Image image={photo}></Image>
-            <WorkExperience data={data}/>
-            <Form onAddItem={addWorkExperience}/>
+            <Image image={photo} />
+            <WorkExperience data={data} />
+            <Form onAddItem={addWorkExperience} />
+            <Repo />
        </>
 };
 
